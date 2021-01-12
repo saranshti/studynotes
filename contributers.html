@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contributers.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Contributers</title>
+</head>
+<body>
+    <div class="js-odoo"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/saransh.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Saransh Tiwari<br><span>Web Devloper</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1"><a href="https://www.facebook.com/saransh.tiwari.902" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li style="--i:2"><a href="https://www.instagram.com/tiwari_saransh/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li style="--i:3"><a href="https://github.com/saranshti" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/arjun.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Arjunram Pal<br><span>AI & ML Expert</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1"><a href="https://www.facebook.com/arjun.pal.3572" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li style="--i:2"><a href="https://www.instagram.com/arjunram_paul/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li style="--i:3"><a href="https://github.com/Arjunram-pal" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="images/heman.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Heman Shakti<br><span>Esport Player</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1"><a href="https://www.instagram.com/hemanshakthi/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/coderitual/odoo/feature/codevember16/lib/odoo.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+        });
+        odoo.default({ el:'.js-odoo', from: 'Study-Notes', to: 'Contributers', animationDelay: 1000 });
+    </script>
+</body>
+</html>

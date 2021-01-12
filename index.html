@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Study Notes</title>
+</head>
+
+<body class="bg-light" onload="my_fun()">
+    <div id="loading"></div>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <img src="images/logo.png" class="navbar-brand" style="height: 50px; width: 166px;">
+        <div class="navbar-toggler" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" data-toggle="collapse" data-target="#navid" aria-controls="navid" aria-expanded="false" aria-label="Toggle navigation">
+          <svg width="50" height="50" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </div>
+        <div class="collapse navbar-collapse" id="navid">
+          <ul class="navbar-nav text-right ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown menu-area">
+              <a href="#" class="nav-link dropdown-toggle" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Semesters</a>
+              <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 col-lg-2">
+                    <a href="#" class="dropdown-item"><h5>Semester-I</h5></a>
+                    <a href="#" class="dropdown-item"><h5>Semester-II</h5></a>
+                    <a href="#" class="dropdown-item"><h5>Semester-III</h5></a>
+                    <a href="#" class="dropdown-item"><h5>Semester-IV</h5></a>
+                    <a href="#" class="dropdown-item"><h5>Semester-V</h5></a>
+                    <a href="sem-6.html" class="dropdown-item"><h5>Semester-VI</h5></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="contributers.html" class="nav-link">Contributers</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container ">
+      <div class="wrapper1">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="feature-box">
+              <h1>Welcome</h1>
+              <h3>There is No Friend As Loyal as a book.</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <img class="feature-img" src="images/vector.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<!---CDN Links-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#ff54a2, #ff575a) !important;
+}
+.row{
+    justify-content: center;
+}
+.container-fluid{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.container-fluid .card{
+    position: relative;
+    width: 175px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+.container-fluid .card .content{
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: bottom 0.5s;
+    transition-delay: 0.8s;
+}
+.container-fluid .card:hover .content{
+    bottom: 0px;
+    transition-delay: 0s;
+}
+.container-fluid .card .contentBx h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+    margin: 15px 0 10px;
+    line-height: 0.8em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition-delay: 0.6s;
+}
+.container-fluid .card:hover .contentBx h3{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.container-fluid .card .contentBx h3 span{
+    font-size: 12px;
+    font-weight: 50;
+    text-transform: initial;
+}
+.container-fluid .card .content .sci{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+.container-fluid .card .content .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+.container-fluid .card:hover .content .sci li{
+    transform: translateY(40px);
+    opacity: 1;
+}
+.container-fluid .card.content .sci li a{
+    color: #fff !important;
+    font-size: 12px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.js-odoo{
+    background: transparent;
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}

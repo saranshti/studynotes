@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <title>Contact</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="text">Contact to Contribute</div>
+            <div class="contact-form">
+                <div class="form-row">
+                    <div class="input-data">
+                        <input type="text" id="name" required>
+                        <div class="underline"></div>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="input-data">
+                        <input type="text" id="facc" required>
+                        <div class="underline"></div>
+                        <label>Facebook Account Link</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data">
+                        <input type="text" id="iacc" required>
+                        <div class="underline"></div>
+                        <label>Instagram Account Link</label>
+                    </div>
+                    <div class="input-data">
+                        <input type="text" id="gacc" required>
+                        <div class="underline"></div>
+                        <label>Github Account Link</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data textarea">
+                        <textarea cols="30" rows="10" id="about" required></textarea>
+                        <div class="underline"></div>
+                        <label>About Yourself</label>
+                    </div>
+                </div>
+                <div class="form-row submit-btn">
+                    <div class="input-data">
+                        <div class="inner"></div>
+                        <input type="submit" value="submit" onclick="submitForm()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/contact.js"></script>
+    </body>
+</html>
