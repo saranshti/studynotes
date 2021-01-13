@@ -113,12 +113,23 @@ function prIRimg1swal(){
 }
 
 function thDIPimg1() {
-    document.getElementById('CFimg-1').style.display = 'none';
+    document.getElementById('DIPimg-1').style.display = 'none';
 }
 function thDIPimg1swal(){
     swal({
         title: "Digital Image Processing",
         text: "Digital Image Processing, S Jayaraman, S Esakkirajan, T Veerakumar,Tata McGraw-Hill Education Pvt. Ltd., 2009",
+        icon: "info",
+        button: "OK",
+    });
+}
+function thDIPimg2() {
+    document.getElementById('DIPimg-2').style.display = 'none';
+}
+function thDIPimg2swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Digital Image Processing, RockTheIT",
         icon: "info",
         button: "OK",
     });
