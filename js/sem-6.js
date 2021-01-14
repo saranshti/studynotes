@@ -111,6 +111,17 @@ function prIRimg1swal(){
         button: "OK",
     });
 }
+function prIRimg2() {
+    document.getElementById('prIRimg-2').style.display = 'none';
+}
+function prIRimg2swal(){
+    swal({
+        title: "Information Retrieval",
+        text: "Practical No.2",
+        icon: "info",
+        button: "OK",
+    });
+}
 
 function thDIPimg1() {
     document.getElementById('DIPimg-1').style.display = 'none';
@@ -187,6 +198,17 @@ function thEHimg3swal(){
     swal({
         title: "Ethical Hacking",
         text: "Unit-3",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prEHimg1() {
+    document.getElementById('prEHimg-1').style.display = 'none';
+}
+function prEHimg1swal(){
+    swal({
+        title: "Ethical Hacking",
+        text: "Practical No.1",
         icon: "info",
         button: "OK",
     });
