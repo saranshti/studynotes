@@ -497,6 +497,116 @@ function thDIPimg3swal(){
         button: "OK",
     });
 }
+function prDIPimg1() {
+    document.getElementById('prDIPimg-1').style.display = 'none';
+}
+function prDIPimg1swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.1",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg2() {
+    document.getElementById('prDIPimg-2').style.display = 'none';
+}
+function prDIPimg2swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.2",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg3() {
+    document.getElementById('prDIPimg-3').style.display = 'none';
+}
+function prDIPimg3swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.3",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg4() {
+    document.getElementById('prDIPimg-4').style.display = 'none';
+}
+function prDIPimg4swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.4",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg5() {
+    document.getElementById('prDIPimg-5').style.display = 'none';
+}
+function prDIPimg5swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.5",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg6() {
+    document.getElementById('prDIPimg-6').style.display = 'none';
+}
+function prDIPimg6swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.6",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg7() {
+    document.getElementById('prDIPimg-7').style.display = 'none';
+}
+function prDIPimg7swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.7",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg8() {
+    document.getElementById('prDIPimg-8').style.display = 'none';
+}
+function prDIPimg8swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.8",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg9() {
+    document.getElementById('prDIPimg-9').style.display = 'none';
+}
+function prDIPimg9swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.9",
+        icon: "info",
+        button: "OK",
+    });
+}
+function prDIPimg10() {
+    document.getElementById('prDIPimg-10').style.display = 'none';
+}
+function prDIPimg10swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.10",
+        icon: "info",
+        button: "OK",
+    });
+}
 
 function thDSimg1() {
     document.getElementById('DSimg-1').style.display = 'none';
