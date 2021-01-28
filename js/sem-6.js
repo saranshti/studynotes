@@ -697,6 +697,27 @@ function prEHimg2swal(){
         button: "OK",
     });
 }
+function prEHimg2b() {
+
+    document.getElementById('prEHimg-2').style.display = 'none';
+
+}
+
+function prEHimg2swal(){
+
+    swal({
+
+        title: "Ethical Hacking",
+
+        text: "Practical No.2",
+
+        icon: "info",
+
+        button: "OK",
+
+    });
+
+}
 function prEHimg3() {
     document.getElementById('prEHimg-3').style.display = 'none';
 }
