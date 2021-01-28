@@ -699,17 +699,17 @@ function prEHimg2swal(){
 }
 function prEHimg2b() {
 
-    document.getElementById('prEHimg-2').style.display = 'none';
+    document.getElementById('prEHimg-2b').style.display = 'none';
 
 }
 
-function prEHimg2swal(){
+function prEHimg2bswal(){
 
     swal({
 
         title: "Ethical Hacking",
 
-        text: "Practical No.2",
+        text: "Practical No.2B",
 
         icon: "info",
 
