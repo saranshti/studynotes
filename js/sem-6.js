@@ -607,6 +607,17 @@ function prDIPimg10swal(){
         button: "OK",
     });
 }
+function prDIPimg11() {
+    document.getElementById('prDIPimg-11').style.display = 'none';
+}
+function prDIPimg11swal(){
+    swal({
+        title: "Digital Image Processing",
+        text: "Practical No.11",
+        icon: "info",
+        button: "OK",
+    });
+}
 
 function thDSimg1() {
     document.getElementById('DSimg-1').style.display = 'none';
